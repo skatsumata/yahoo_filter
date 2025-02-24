@@ -34,6 +34,11 @@
             const titleElement = article.querySelector("h1 span");
             const providerElement = article.querySelector("cite");
 
+            article.querySelectorAll("article img").forEach(img => {
+                img.width = 40;
+                img.height = 40;
+            });
+
             const title = titleElement ? titleElement.innerText : "";
             const provider = providerElement ? providerElement.innerText : "";
 
