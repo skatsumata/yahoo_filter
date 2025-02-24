@@ -27,6 +27,19 @@
         }
     }
 
+    function hideHeader() {
+        header = document.querySelector("header");
+        if (header) {
+            header.style.display = "none";
+        }        
+    }
+
+    function hideEntertaiment() {
+        const entertainment = document.querySelector("#tabTopics li#tabTopics3");
+        if (entertainment) {
+            entertainment.style.display = "none";
+        }
+    }
 
     function hideArticles() {
         // 記事を取得してフィルタリング
@@ -99,7 +112,9 @@
         console.table(sortedProviderCounts);
     }
     
+    hideHeader();
     hideSidebarContent();
+    hideEntertaiment();
     // 初回実行
     hideArticles();
 
