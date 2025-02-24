@@ -1,4 +1,3 @@
-
 # Yahoo Filter Chrome Extension
 
 ## Overview
@@ -35,3 +34,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ## License
 
 This project is licensed under the MIT License.
+
+## Disclaimer
+
+This extension is not affiliated with or endorsed by Yahoo. Use this extension at your own risk. The developers are not responsible for any damages or issues that may arise from using this extension.
