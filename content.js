@@ -29,6 +29,7 @@
 
 
     function hideArticles() {
+        // 記事を取得してフィルタリング
         document.querySelectorAll("#Stream article").forEach(article => {
             const titleElement = article.querySelector("h1 span");
             const providerElement = article.querySelector("cite");
@@ -53,7 +54,7 @@
                 blocked = true;
             }
 
-            // ブロックされた場合
+            // ブロック対象記事への処理
             if (blocked) {
                 article.style.display = "none";
 
@@ -72,6 +73,7 @@
             }
         });
 
+        // 広告を削除
         const parent = document.getElementById("qurireco");
         if (parent) {
             Array.from(parent.children).forEach(child => {
