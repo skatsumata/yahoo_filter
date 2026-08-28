@@ -1,9 +1,9 @@
 (() => {
     // フィルタリング対象のキーワード
     const blockKeywords = ["与沢翼", "堀江", "成田","高須","美容","倉田真由美","東浩紀","ガーシー", "高橋洋一", "美女", "美人", "広末","万博" ];
-    var blockProviders = [ "ABEMA", "プレジデント","PRESIDENT","ABEMA", "スポニチ","ゴールドオンライン", "ダイヤモンド", "FRIDAY","東スポ", "Ameba", "ショッピング"];
+    var blockProviders = [ "ABEMA", "プレジデント","PRESIDENT","ABEMA", "スポニチ","ゴールドオンライン", "ダイヤモンド", "FRIDAY","東スポ", "スポ", "Ameba", "ショッピング"];
     blockProviders = blockProviders.concat(["女性", "ねとらぼ", "よろず", "オリコン","産経", "FNN", "J-CAST", "FRaU","新潮", "TRILL", "LIMO"]);
-    blockProviders = blockProviders.concat(["Full", "ENCOUNT", "ANSWER", "スポーツ", "DIGEST", "GAME"]);
+    blockProviders = blockProviders.concat(["FullCount", "ENCOUNT", "ANSWER", "スポーツ", "DIGEST", "GAME","CoCoKARAnext"]);
 
     // ブロック統計情報
     let providerBlockCounts = {};  // providerごとの件数
